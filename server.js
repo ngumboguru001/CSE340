@@ -37,3 +37,7 @@ const host = process.env.HOST
 app.listen(port, () => {
   console.log(`app listening on ${host}:${port}`)
 })
+app.use(express.static("public"));
+app.get("/", function(req, res){
+  res.render("index", { title: "Home" });
+});
