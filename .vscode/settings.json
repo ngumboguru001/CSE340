@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-d6tq3e24d50c73cfh5p0-a.oregon-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "cse340-render",
+            "group": "CSE340",
+            "database": "cse340_db_egvl",
+            "username": "cse340_db_egvl_user",
+            "password": "S9xfSMDSzWpohiTCLdMNIsceBhNuXSZu"
+        }
+    ]
+}
