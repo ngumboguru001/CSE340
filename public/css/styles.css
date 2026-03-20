@@ -151,3 +151,30 @@ footer{
   }
 
 }
+
+.vehicle-detail{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.vehicle-image{
+flex:1;
+}
+
+.vehicle-info{
+flex:1;
+}
+
+.vehicle-image img{
+width:100%;
+height:auto;
+}
+
+@media (max-width:768px){
+
+.vehicle-detail{
+flex-direction:column;
+}
+
+}
